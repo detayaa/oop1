@@ -5,11 +5,11 @@ public class Human {
     String post;
 
     Human(String name, String city, int dateOfBirth, String post) {
-        if (name == null) {
+        if (name == null || name.isEmpty()) {
             this.name = "Информация не указана";
         } else { this.name = name;}
 
-        if (city == null) {
+        if (city == null || city.isEmpty()) {
             this.city = "Информация не указана";
         } else { this.city = city;}
 
@@ -18,7 +18,7 @@ public class Human {
             this.dateOfBirth = 0;
         } else { this.dateOfBirth = dateOfBirth;}
 
-        if (post == null) {
+        if (post == null || post.isEmpty()) {
             this.post = "Информация не указана";
         } else { this.post = post;}
     }
