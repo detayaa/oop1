@@ -10,7 +10,7 @@ public class Human {
     }
 
     void human() {
-        System.out.println("Меня зовут " + name + "! Я из " + city + " и я родился в  " + dateOfBirth + " году.");
+        System.out.println("Привет! Меня зовут " + name + "! Я из города " + city + " и я родился в " + dateOfBirth + " году. Будем знакомы!");
     }
 
 
