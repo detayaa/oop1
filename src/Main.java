@@ -9,6 +9,9 @@ public class Main {
         Human artem = new Human("Артем", "Москва", 1991, "директор по развитию бизнеса");
         artem.human();
 
+        Human vladimir = new Human("Владимир", "Казань", 2001, "сейчас нигде не работаю");
+        vladimir.human();
+
     }
 
 }
