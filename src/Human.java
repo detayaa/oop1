@@ -35,7 +35,7 @@ public class Human {
         if (dateOfBirth > 0) {
             this.dateOfBirth = dateOfBirth;
         } else {
-            dateOfBirth = 0;
+            this.dateOfBirth = 0;
         }
     }
 
